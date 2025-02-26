@@ -13,7 +13,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/4211421036/githubiotpy",
-    keyword= Github, IoT, Arduino IDE, Python Modules, ESP32, ESP8266, webApp
+    keyword="Github, IoT, Arduino IDE, Python Modules, ESP32, ESP8266, webApp",
     packages=find_packages(),
     include_package_data=True,
     package_data={
