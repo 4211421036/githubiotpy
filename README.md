@@ -4,7 +4,7 @@
   <img src="https://4211421036.github.io/githubiotpy/img/GitHub%20IoT%20Logo.png" alt="GitHubIoT Logo">
 </p>
 
-Before Started Develoment this Application. Please Readme Wiki repository GitHub IoT for Arduino IDE Application at [https://github.com/4211421036/githubiot/wiki](https://github.com/4211421036/githubiot/wiki), following step by step. And The last, your can develoment webApp with GA [github.com/marketplace/actions/generate-iot-dashboard](github.com/marketplace/actions/generate-iot-dashboard) automation step by step. Thank You!
+Before Started Develoment this Application. Please Readme Wiki repository GitHub IoT for Arduino IDE Application at [https://github.com/4211421036/githubiot/wiki](https://github.com/4211421036/githubiot/wiki), following step by step. And The last, your can develoment webApp with GA  [https://github.com/marketplace/actions/generate-iot-dashboard](https://github.com/marketplace/actions/generate-iot-dashboard) automation step by step. Thank You!
 
 ## Table of Contents
 
@@ -51,8 +51,7 @@ You can install GitHubIoT using pip:
 pip install githubiot
 ```
 
-or use docker
-
+or using Docker command line:
 ```bash
 docker pull galihridhoutomo/githubiot
 ```
@@ -301,7 +300,7 @@ Please cite this respotory, if your use in the publication
 author = {Utomo, Galih Ridho, Fionita Fahra Azzahra},
 title = {GitHub IoT a comprehensive toolkit designed to simplify the visualization of IoT (Internet of Things) data with seamless GitHub integration. The application provides an intuitive graphical interface for real-time data monitoring, analysis, and configuration, making it ideal for both beginners and experienced developers working with IoT devices microcontroler (ESP32 or ESP8266) realtime},
 year = {2025},
-howpublished = {\url{https://github.com/4211421036/fnn}},
+howpublished = {\url{https://hub.docker.com/r/galihridhoutomo/githubiot}},
 note = {GitHub repository},
 }
 ```
@@ -309,5 +308,5 @@ note = {GitHub repository},
 ---
 
 <p align="center">
-  <strong>GitHubIoT - Simplifying IoT Data Visualization</strong>
+  <strong>GitHubIoT - Building the Future with Integrated Microcontroller Solutions</strong>
 </p>
