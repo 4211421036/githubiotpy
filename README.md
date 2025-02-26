@@ -51,6 +51,12 @@ You can install GitHubIoT using pip:
 pip install githubiot
 ```
 
+or use docker
+
+```bash
+docker pull galihridhoutomo/githubiot
+```
+
 ### Prerequisites
 
 - Python 3.7 or higher
