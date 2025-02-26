@@ -40,3 +40,11 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/githubiot:latest
+      
+      - name: Build Docker image
+        run: |
+          docker build -t {{ secrets.DOCKERHUB_USERNAME }}/githubiot:latest .
+
+      - name: Push Docker image to GitHub Registry
+        run: |
+          docker push {{ secrets.DOCKERHUB_USERNAME }}/githubiot:latest
