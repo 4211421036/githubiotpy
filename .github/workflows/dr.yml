@@ -41,9 +41,15 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/githubiot:latest
       
-      - name: Build and Publish latest Docker image
-        uses: DrSkunk/gp-docker-action@1.1.9
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }} # Provide GITHUB_TOKEN to login into the GitHub Packages
-          image-name: githubiot # Provide only Docker image name, tag will be automatically set to latest
-          dockerfile: Dockerfile
+      - name: Build and Push Docker Image
+        run: |
+          IMAGE_NAME="ghcr.io/${{ github.repository_owner }}/githubiot"
+          VERSION=${GITHUB_REF#refs/tags/} # Jika menjalankan dari tag, ambil versi
+
+          # Jika push dari main branch, gunakan `latest`
+          if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
+            VERSION="latest"
+          fi
+
+          docker build -t $IMAGE_NAME:$VERSION .
+          docker push $IMAGE_NAME:$VERSION
