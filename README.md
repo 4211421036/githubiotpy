@@ -68,13 +68,25 @@ pip install githubiot
 After installation, you can quickly start the application with default settings:
 
 ```bash
-githubiot --run
+githubiot --create-app
 ```
 
 This will launch the application with default configurations. For a customized setup:
 
 ```bash
 githubiot --name "My IoT Dashboard" --json-url "https://my-iot-api.com/data"
+```
+
+and the last step
+
+```bash
+githubiot --run
+```
+
+if you build this app to .exe application Desktop. Can be interact CLI githubiot below
+
+```bash
+githubiot --build
 ```
 
 ## Features
