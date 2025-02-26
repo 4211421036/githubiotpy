@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="githubiot",
     version="1.0.0",
-    author="GALIH RIDHO UTOMO",
+    author="GALIH RIDHO UTOMO, Fionita Fahra Azzahra",
     author_email="g4lihru@students.unnes.ac.id",
     description="IoT Visualization Toolkit with GitHub Integration",
     long_description=long_description,
