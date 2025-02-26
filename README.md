@@ -4,7 +4,7 @@
   <img src="https://4211421036.github.io/githubiotpy/img/GitHub%20IoT%20Logo.png" alt="GitHubIoT Logo">
 </p>
 
-Before Started Develoment this Application. Please Readme Wiki repository GitHub IoT for Arduino IDE Application at [https://github.com/4211421036/githubiot/wiki](https://github.com/4211421036/githubiot/wiki), following step by step. And The last, your can develoment webApp with GA [Generate IoT Dashboard](github.com/marketplace/actions/generate-iot-dashboard) automation step by step. Thank You!
+Before Started Develoment this Application. Please Readme Wiki repository GitHub IoT for Arduino IDE Application at [https://github.com/4211421036/githubiot/wiki](https://github.com/4211421036/githubiot/wiki), following step by step. And The last, your can develoment webApp with GA [github.com/marketplace/actions/generate-iot-dashboard](github.com/marketplace/actions/generate-iot-dashboard) automation step by step. Thank You!
 
 ## Table of Contents
 
@@ -280,7 +280,7 @@ Please ensure your code follows the project's coding standards and includes appr
 
 ## License
 
-This project is licensed under the [`MIT License`](LICENCE) - see the LICENSE file for details.
+This project is licensed under the MIT LICENCE [https://github.com/4211421036/githubiotpy/LICENCE](https://github.com/4211421036/githubiotpy/LICENCE) - see the LICENSE file for details.
 
 ## Authors
 
