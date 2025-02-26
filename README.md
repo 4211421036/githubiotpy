@@ -1,5 +1,7 @@
 # GitHubIoT
 
+[Logo GitHubIoT](https://4211421036.github.io/githubiotpy/img/GitHub%20IoT%20Logo.png)
+
 A toolkit for IoT data visualization with GitHub integration.
 
 ## Installation
