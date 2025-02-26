@@ -9,7 +9,7 @@ setup(
     version="1.0.0",
     author="GALIH RIDHO UTOMO, Fionita Fahra Azzahra",
     author_email="g4lihru@students.unnes.ac.id",
-    description="IoT Visualization Toolkit with GitHub Integration",
+    description="GitHubIoT is a comprehensive toolkit designed to simplify the visualization of IoT (Internet of Things) data with seamless GitHub integration. The application provides an intuitive graphical interface for real-time data monitoring, analysis, and configuration, making it ideal for both beginners and experienced developers working with IoT devices microcontroler (ESP32 or ESP8266) realtime",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/4211421036/githubiotpy",
