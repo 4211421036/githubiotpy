@@ -1,6 +1,6 @@
 # GitHubIoT
 
-[Logo GitHubIoT](https://4211421036.github.io/githubiotpy/img/GitHub%20IoT%20Logo.png)
+<img src="https://4211421036.github.io/githubiotpy/img/GitHub%20IoT%20Logo.png" alt="logo">
 
 A toolkit for IoT data visualization with GitHub integration.
 
