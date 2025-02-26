@@ -43,7 +43,7 @@ jobs:
       
       - name: Build Docker image
         run: |
-          docker build -t {{ secrets.DOCKERHUB_USERNAME }}/githubiot:latest .
+          docker build {{ secrets.DOCKERHUB_USERNAME }}/githubiot:latest .
 
       - name: Push Docker image to GitHub Registry
         run: |
