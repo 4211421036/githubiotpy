@@ -38,3 +38,7 @@ githubiot.start(
     status="build"  # or "run"
 )
 ```
+
+## Author
+1. GALIH RIDHO UTOMO
+2. Fionita Fahra Azzahra
