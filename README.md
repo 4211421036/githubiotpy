@@ -296,7 +296,7 @@ This project is licensed under the MIT LICENCE [https://github.com/4211421036/gi
 Please cite this respotory, if your use in the publication
 
 ```bibtex
-@misc{fnn,
+@misc{githubiot,
 author = {Utomo, Galih Ridho, Fionita Fahra Azzahra},
 title = {GitHub IoT a comprehensive toolkit designed to simplify the visualization of IoT (Internet of Things) data with seamless GitHub integration. The application provides an intuitive graphical interface for real-time data monitoring, analysis, and configuration, making it ideal for both beginners and experienced developers working with IoT devices microcontroler (ESP32 or ESP8266) realtime},
 year = {2025},
