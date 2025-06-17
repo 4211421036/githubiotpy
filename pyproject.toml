@@ -4,12 +4,38 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "githubiot"
+version = "1.0.5"
 authors = [
     {name = "GALIH RIDHO UTOMO", email = "g4lihru@students.unnes.ac.id"},
     {name = "Fionita Fahra Azzahra", email = "fionitafahra13@students.unnes.ac.id"},
+]
+description = "GitHubIoT is a comprehensive toolkit designed to simplify the visualization of IoT (Internet of Things) data with seamless GitHub integration."
+readme = "README.md"
+requires-python = ">=3.6"
+keywords = ["Github", "IoT", "Arduino IDE", "Python Modules", "ESP32", "ESP8266", "webApp"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "requests>=2.26.0",
+    "matplotlib>=3.5.0",
+    "numpy>=1.21.0",
+    "pyinstaller>=5.0.0",
 ]
 
 [project.urls]
 Documentation = "https://github.com/4211421036/githubiotpy/README.md"
 Source = "https://github.com/4211421036/githubiotpy"
 Homepage = "https://4211421036.github.io/githubiotpy/"
+
+[project.scripts]
+githubiot = "githubiot.cli:run_cli"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+githubiot = ["templates/*"]
