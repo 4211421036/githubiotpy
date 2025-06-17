@@ -21,6 +21,14 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Read package metadata
+        id: metadata
+        run: |
+          VERSION=$(grep '^version' pyproject.toml | head -1 | sed -E 's/version *= *"(.*)"/\1/')
+          NAME=$(grep '^name' pyproject.toml | head -1 | sed -E 's/name *= *"(.*)"/\1/')
+          echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
+          echo "PACKAGE_NAME=$NAME" >> $GITHUB_OUTPUT
+
       - name: Start PyPI Deployment
         id: create-deployment
         uses: actions/github-script@v7
