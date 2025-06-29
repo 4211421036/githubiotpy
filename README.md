@@ -1,10 +1,10 @@
 # GitHubIoT Documentation
 
 <p align="center">
-  <img src="https://4211421036.github.io/githubiotpy/img/GitHub%20IoT%20Logo.png" alt="GitHubIoT Logo">
+  <img src="https://galihru.github.io/githubiotpy/img/GitHub%20IoT%20Logo.png" alt="GitHubIoT Logo">
 </p>
 
-Before Started Develoment this Application. Please Readme Wiki repository GitHub IoT for Arduino IDE Application at [https://github.com/4211421036/githubiot/wiki](https://github.com/4211421036/githubiot/wiki), following step by step. And The last, your can develoment webApp with GA  [https://github.com/marketplace/actions/generate-iot-dashboard](https://github.com/marketplace/actions/generate-iot-dashboard) automation step by step. Thank You!
+Before Started Develoment this Application. Please Readme Wiki repository GitHub IoT for Arduino IDE Application at [https://github.com/galihru/githubiot/wiki](https://github.com/galihru/githubiot/wiki), following step by step. And The last, your can develoment webApp with GA  [https://github.com/marketplace/actions/generate-iot-dashboard](https://github.com/marketplace/actions/generate-iot-dashboard) automation step by step. Thank You!
 
 ## Table of Contents
 
@@ -275,7 +275,7 @@ This will provide additional console output to help diagnose issues.
 
 Contributions to GitHubIoT are welcome! Please follow these steps:
 
-1. [Fork](https://github.com/4211421036/githubiotpy/fork) the repository
+1. [Fork](https://github.com/galihru/githubiotpy/fork) the repository
 2. Create a feature branch
 3. Commit your changes
 4. Push to the branch
@@ -285,7 +285,7 @@ Please ensure your code follows the project's coding standards and includes appr
 
 ## License
 
-This project is licensed under the MIT LICENCE [https://github.com/4211421036/githubiotpy/LICENCE](https://github.com/4211421036/githubiotpy/LICENCE) - see the LICENSE file for details.
+This project is licensed under the MIT LICENCE [https://github.com/galihru/githubiotpy/LICENCE](https://github.com/galihru/githubiotpy/LICENCE) - see the LICENSE file for details.
 
 ## Authors
 
